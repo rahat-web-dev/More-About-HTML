@@ -1,0 +1,33 @@
+nav > ul > li {
+    display: inline;
+    margin-right: 10px;
+}
+nav li > a {
+    text-decoration: none;
+    color: rgb(255, 0, 47);
+}
+figure figcaption {
+    text-align: center;
+}
+article header {
+    margin-left: 40px;
+}
+section {
+    margin: 0px 40px;
+}
+article footer p {
+    display: flex;
+    gap: 10px;
+   
+    justify-content: center;
+}
+body footer {
+    margin-top: 20px;
+    text-align: center;
+}
+section p {
+    text-align: justify;
+    word-spacing: 8px;
+
+     
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>form</title>
+  <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+  <h2>Every kind of form element</h2><hr />
+
+  <form action="">
+
+    <!-- username form -->
+    <label for="name" class="label">User Name</label><br />
+    <input type="text" name="name" id="name" placeholder="Enter Your Name" />
+    <span>A value is required.</span><hr />
+
+    <!-- Password form -->
+    <label for="password" class="label">Password</label><br />
+    <input type="password" name="password" id="password" placeholder="Password" required />
+    <hr />
+
+    <!-- Text-Area form -->
+    <label for="description" class="label">Description</label><br />
+    <textarea name="description" id="description" placeholder="Enter the description here....."></textarea>
+    <hr />
+ 
+    <!-- radio buttons -->
+    <label for=""  class="label">Pick One</label><br>
+    <input type="radio" name="pickone" id="ch1" value="ch1" checked/>
+    <label for="ch1">Choice one is preselected and shows the text wraps nicely if it goes to
+      multiple lines.</label><br>
+
+    <input type="radio" name="pickone" id="ch2" value="ch2" />
+    <label for="ch2">Choice-2 this shows the text wraps nicely if it goes multiple lines.</label><hr>
+    
+    <!-- checkbox -->
+     <label for="" class="label" >Pick any</label><br>
+     
+      <input type="checkbox" name="pick" id="choice1" value="choice1">
+      <label for="choice1">Choice-1</label><br>
+
+      <input type="checkbox" name="pick" id="choice2" value="choice2" checked>
+      <label for="choice2">Choice-2 is precheked</label><br>
+
+      <input type="checkbox" name="pick" id="choice3" value="choice3">
+      <label for="choice3">Choice-3 add as many as you need</label><hr>
+
+      <!-- select -->
+       <div>
+        <label class="label" for="drink">Need a drink?</label><br>
+
+       <select name="drink" id="drink">
+
+        <option value="pepsi">Pepsi</option>
+        <option value="mojo">mojo</option>
+        <option value="mango-juice">Mango-Juice</option>
+        <option value="speed">Speed</option>
+        
+       </select>
+    
+       </div><hr>
+       <div class="submit">
+       <input type="submit" class="sub" value="Submit This Form">
+       </div>
+  </form>
+</body>
+
+</html>

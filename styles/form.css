@@ -1,0 +1,18 @@
+body {
+   border: 2px solid rgba(92, 86, 82, 0.381);
+   padding: 10px;
+}
+.label , span {
+   font-weight: 700;
+}
+
+.submit {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.sub {
+   margin-left: auto;
+   border-radius: 5px;
+}
