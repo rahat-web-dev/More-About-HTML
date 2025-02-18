@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+
+}
+th , td {
+    border: 2px solid black;
+    width: 33.33%;
+   
+}
+h2 {
+    text-align: center;
+}
+caption {
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.bold {
+    font-weight: 600;
+    font-size: large;
+}
